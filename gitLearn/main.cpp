@@ -10,8 +10,11 @@
 
 class CGitLearn
 {
-    
+private:
+    static int iCount;
 };
+
+int CGitLearn::iCount = 0;
 
 int main(int argc, const char * argv[])
 {
