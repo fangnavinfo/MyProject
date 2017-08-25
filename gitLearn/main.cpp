@@ -13,7 +13,8 @@ class CGitLearn
 public:
     void DisPlay()
     {
-        std::cout << "git Learn!\n";
+        std::cout << "git Learn!\n"<<"issue1 changed";
+        
     }
     
 };
