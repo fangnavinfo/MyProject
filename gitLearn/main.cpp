@@ -7,23 +7,27 @@
 //
 
 #include <iostream>
+#include "test.hpp"
 
 class CGitLearn
 {
 public:
     void DisPlay()
     {
-        std::cout << "git Learn!\n"<< iCount++;
+        std::cout << "git Learn!\n"<< iCount++ <<"issue1 changed";
     }
     
 private:
     static int iCount;
+    int iNew;
 };
 
 int CGitLearn::iCount = 0;
 
 int main(int argc, const char * argv[])
 {
+    int a = 0, b=1;
+    TestMax(a, b);
     CGitLearn gitLearn;
     gitLearn.DisPlay();
     

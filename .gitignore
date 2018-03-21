@@ -31,3 +31,7 @@
 *.exe
 *.out
 *.app
+
+*.orig
+gitLearn.xcodeproj/project.pbxproj
+gitLearn/main.cpp
